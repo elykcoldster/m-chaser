@@ -1,0 +1,1036 @@
+fileFormatVersion: 2
+guid: 62316d49d3c5bad4b8c2671862b8bbaa
+timeCreated: 1497069945
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: samus_r0
+    21300002: samus_r1
+    21300004: samus_r2
+    21300006: samus_r3
+    21300008: samus_r4
+    21300010: samus_r5
+    21300012: samus_run_0
+    21300014: samus_run_1
+    21300016: samus_run_2
+    21300018: samus_run_3
+    21300020: samus_run_4
+    21300022: samus_run_5
+    21300024: samus_run_6
+    21300026: samus_run_7
+    21300028: samus_run_8
+    21300030: samus_run_9
+    21300032: samus_run_gun_0
+    21300034: samus_run_gun_1
+    21300036: samus_run_gun_2
+    21300038: samus_run_gun_3
+    21300040: samus_run_gun_4
+    21300042: samus_run_gun_5
+    21300044: samus_run_gun_6
+    21300046: samus_run_gun_7
+    21300048: samus_run_gun_8
+    21300050: samus_run_gun_9
+    21300052: samus_spin_jump_0
+    21300054: samus_spin_jump_1
+    21300056: samus_spin_jump_2
+    21300058: samus_spin_jump_3
+    21300060: samus_spin_jump_4
+    21300062: samus_spin_jump_5
+    21300064: samus_spin_jump_6
+    21300066: samus_spin_jump_7
+    21300068: samus_jump_straight
+    21300070: samus_crouch_0
+    21300072: samus_crouch_1
+    21300074: samus_crouch_2
+    21300076: samus_crouch_3
+    21300078: samus_crouch_4
+    21300080: samus_crouch_5
+    21300082: samus_crawl_init_0
+    21300084: samus_crawl_init_1
+    21300086: samus_crawl_init_2
+    21300088: samus_crawl_init_3
+    21300090: samus_crawl_init_4
+    21300092: samus_crawl_0
+    21300094: samus_crawl_1
+    21300096: samus_crawl_2
+    21300098: samus_crawl_3
+    21300100: samus_crawl_4
+    21300102: samus_crawl_5
+    21300104: samus_death_0
+    21300106: samus_death_1
+    21300108: samus_death_2
+    21300110: samus_death_3
+    21300112: samus_death_4
+    21300114: samus_death_5
+    21300116: samus_death_6
+    21300118: samus_death_7
+    21300120: samus_death_8
+    21300122: Zero Suit Samus_0
+    21300124: samus_death_9
+    21300126: samus_death_10
+    21300128: samus_death_11
+    21300130: samus_death_12
+    21300132: samus_death_13
+    21300134: samus_death_14
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 36
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: samus_r0
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 1096
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_r1
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1099
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_r2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1101
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_r3
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1103
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_r4
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1105
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_r5
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1105
+        width: 25
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_0
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 409
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_1
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 407
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_2
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 403
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_3
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 403
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_4
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 403
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 402
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_6
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 402
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_7
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 402
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_8
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 403
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_9
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 404
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_gun_0
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 350
+        width: 28
+        height: 36
+      alignment: 9
+      pivot: {x: 0.44457573, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_gun_1
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 349
+        width: 32
+        height: 37
+      alignment: 9
+      pivot: {x: 0.51143456, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_gun_2
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 352
+        width: 35
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5560355, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_gun_3
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 353
+        width: 36
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5693376, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_gun_4
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 351
+        width: 35
+        height: 37
+      alignment: 9
+      pivot: {x: 0.56112933, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_gun_5
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 353
+        width: 29
+        height: 36
+      alignment: 9
+      pivot: {x: 0.46700522, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_gun_6
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 351
+        width: 31
+        height: 37
+      alignment: 9
+      pivot: {x: 0.49657023, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_gun_7
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 354
+        width: 34
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5437766, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_gun_8
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 355
+        width: 36
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5708754, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_run_gun_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 354
+        width: 35
+        height: 36
+      alignment: 9
+      pivot: {x: 0.5607492, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_spin_jump_0
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 732
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_spin_jump_1
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 734
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_spin_jump_2
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 734
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_spin_jump_3
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 734
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_spin_jump_4
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 735
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_spin_jump_5
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 734
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_spin_jump_6
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 736
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_spin_jump_7
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 736
+        width: 27
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_jump_straight
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 567
+        width: 23
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crouch_0
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 871
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crouch_1
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 874
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crouch_2
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 871
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crouch_3
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 875
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crouch_4
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 873
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crouch_5
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 871
+        width: 24
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crawl_init_0
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 65
+        width: 26
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crawl_init_1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 64
+        width: 30
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crawl_init_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 64
+        width: 34
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crawl_init_3
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 63
+        width: 38
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crawl_init_4
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 63
+        width: 42
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crawl_0
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 31
+        width: 42
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crawl_1
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 30
+        width: 37
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crawl_2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 30
+        width: 39
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crawl_3
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 30
+        width: 38
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crawl_4
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 30
+        width: 42
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_crawl_5
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 30
+        width: 44
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_0
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 207
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_1
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 205
+        width: 27
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.03}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_2
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 162
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_3
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 162
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_4
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 163
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_5
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 163
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_6
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 163
+        width: 25
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_7
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 164
+        width: 20
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_8
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 161
+        width: 20
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Zero Suit Samus_0
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 161
+        width: 20
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_9
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 115
+        width: 17
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_10
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 116
+        width: 18
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_11
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 117
+        width: 20
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_12
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 118
+        width: 21
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_13
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 116
+        width: 18
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_death_14
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 119
+        width: 15
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
