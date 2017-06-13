@@ -17,7 +17,7 @@ public class Monster : Movable {
 	Transform target;
 
 	bool grounded;
-	float invulnTimer, findTargetTimer;
+	float invulnTimer, findTargetTimer, jumpDelay, jumpTimer;
 
 	void Start () {
 		base.Start ();
@@ -29,6 +29,8 @@ public class Monster : Movable {
 		bc = GetComponent<BoxCollider2D> ();
 		health = maxHealth;
 		invulnTimer = invulnerableTime;
+		jumpDelay = 0.2f;
+		jumpTimer = 0f;
 		findTargetTimer = 0f;
 
 		RandomWalk ();
@@ -91,7 +93,10 @@ public class Monster : Movable {
 	}
 
 	public void Jump() {
-		if (!dead && grounded) {
+		jumpTimer += Time.deltaTime;
+		jumpTimer = Mathf.Min (jumpDelay, jumpTimer);
+		if (!dead && moving && grounded && jumpTimer >= jumpDelay) {
+			jumpTimer = 0f;
 			rb.velocity = new Vector2 (xvel, jumpSpeed);
 		}
 	}

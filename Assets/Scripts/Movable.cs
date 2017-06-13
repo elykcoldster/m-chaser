@@ -11,9 +11,8 @@ public class Movable : MonoBehaviour {
 	protected Rigidbody2D rb;
 	protected SpriteRenderer sr;
 	protected float xvel;
-	protected bool dead;
+	protected bool dead, moving;
 
-	bool moving;
 	float timeToMove, moveTimer;
 
 	// Use this for initialization
