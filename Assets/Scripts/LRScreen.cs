@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Screen : MonoBehaviour {
+public class LRScreen : MonoBehaviour {
 
 	public GameObject UIObject;
 	public Camera camera;

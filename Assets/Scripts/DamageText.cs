@@ -9,7 +9,7 @@ public class DamageText : MonoBehaviour {
 	public float floatSpeed = 1f;
 
 	Camera cam;
-	Screen screen;
+	LRScreen screen;
 	Transform target;
 	Text text;
 	Vector3 position;
@@ -49,8 +49,8 @@ public class DamageText : MonoBehaviour {
 	}
 
 	public void Initialize(Transform target, GameObject screen, float damage) {
-		this.cam = screen.GetComponent<Screen> ().camera;
-		this.screen = screen.GetComponent<Screen> ();
+		this.cam = screen.GetComponent<LRScreen> ().camera;
+		this.screen = screen.GetComponent<LRScreen> ();
 		this.target = target;
 
 		this.damage = damage;

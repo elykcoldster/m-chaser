@@ -33,14 +33,14 @@ public class Monster : Movable {
 		jumpTimer = 0f;
 		findTargetTimer = 0f;
 
-		RandomWalk ();
+		// RandomWalk ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		base.Update ();
 
-		FollowTarget ();
+		// FollowTarget ();
 
 		invulnTimer += Time.deltaTime;
 		invulnTimer = Mathf.Min (invulnTimer, invulnerableTime);
@@ -61,7 +61,7 @@ public class Monster : Movable {
 
 	void DetectGround() {
 		int groundLayer = 1 << LayerMask.NameToLayer ("Ground");
-		grounded = Physics2D.OverlapBox (groundCheck.position, new Vector2 (2 * sr.bounds.extents.x, 0.01f), 0.0f, groundLayer);
+		grounded = Physics2D.OverlapBox (groundCheck.position, new Vector2 (2 * sr.bounds.extents.x * 0.95f, 0.01f), 0.0f, groundLayer);
 	}
 
 	void DetectWall() {
@@ -103,7 +103,7 @@ public class Monster : Movable {
 
 	public void TakeDamage(float damage, Transform source) {
 		if (health == maxHealth && damage > 0f) {
-			MonsterHealthBar mhb = ((GameObject)Instantiate (Global.instance.monsterHealthBar, transform.GetComponentInParent<Screen> ().UIObject.transform)).GetComponent<MonsterHealthBar> ();
+			MonsterHealthBar mhb = ((GameObject)Instantiate (Global.instance.monsterHealthBar, transform.GetComponentInParent<LRScreen> ().UIObject.transform)).GetComponent<MonsterHealthBar> ();
 			mhb.SetTarget (transform);
 		}
 		if (invulnTimer >= invulnerableTime) {
@@ -112,7 +112,7 @@ public class Monster : Movable {
 
 			if (health > 0f) {
 				this.health -= damageTaken;
-				Global.instance.SpawnDamageText (damageTaken, transform, GetComponentInParent<Screen> ().gameObject);
+				Global.instance.SpawnDamageText (damageTaken, transform, GetComponentInParent<LRScreen> ().gameObject);
 			}
 
 			if (target == null) {

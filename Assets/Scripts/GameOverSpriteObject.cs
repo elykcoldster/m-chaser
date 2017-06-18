@@ -15,6 +15,6 @@ public class GameOverSpriteObject : MonoBehaviour {
 	}
 
 	public void GameOver() {
-		Global.instance.GameOver (parent.gameObject, GetComponentInParent<Screen>().UIObject);
+		Global.instance.GameOver (parent.gameObject, GetComponentInParent<LRScreen>().UIObject);
 	}
 }

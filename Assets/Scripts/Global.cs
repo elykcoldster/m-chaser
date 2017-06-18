@@ -28,7 +28,7 @@ public class Global : MonoBehaviour {
 	}
 
 	public void SpawnDamageText(float damage, Transform target, GameObject screen) {
-		GameObject dmgTxt = (GameObject)Instantiate (damageText, screen.GetComponent<Screen>().UIObject.transform);
+		GameObject dmgTxt = (GameObject)Instantiate (damageText, screen.GetComponent<LRScreen>().UIObject.transform);
 		DamageText DTObj = dmgTxt.GetComponent<DamageText> ();
 		DTObj.Initialize (target, screen, damage);
 	}
