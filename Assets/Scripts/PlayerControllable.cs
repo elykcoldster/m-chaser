@@ -4,20 +4,24 @@ using UnityEngine;
 
 public class PlayerControllable : MonoBehaviour {
 
+	public GameObject beamObject;
 	public float maxHealth = 100f, health, armor = 25f;
 	public float moveSpeed = 4.0f;
 	public float jumpSpeed = 5.0f;
-	public float fireRate = 20.0f;
+	public float fireRate = 20.0f, fireDistance = 5f, fireSpeed = 10f;
+	public float knockback = 0f;
 	public float crouchMultiplier = 0f;
 	public float attackDamage = 10f;
 	public Transform groundCheck;
+
+	public bool invulnerable;
 
 	protected Animator anim;
 	protected BoxCollider2D bc;
 	protected Rigidbody2D rb;
 	protected SpriteRenderer sr;
 
-	protected bool damaged, grounded, forwardJump, invulnerable, regainControl, death;
+	protected bool damaged, grounded, forwardJump, regainControl, death, stunned;
 	protected int groundLayer;
 
 	// Use this for initialization
@@ -33,6 +37,9 @@ public class PlayerControllable : MonoBehaviour {
 	
 	// Update is called once per frame
 	protected void Update () {
+		if (Global.instance.gameOver) {
+			return;
+		}
 		Move (transform.tag);
 		Jump (transform.tag);
 		DamageCheck ();
@@ -62,7 +69,7 @@ public class PlayerControllable : MonoBehaviour {
 			}
 		}
 
-		if (!damaged) {
+		if (!damaged && !stunned) {
 			rb.velocity = new Vector2 (h * moveSpeed * crouchMultiplier, rb.velocity.y);
 		}
 		anim.SetBool ("run", Mathf.Abs(rb.velocity.x) > 0f);
@@ -75,7 +82,7 @@ public class PlayerControllable : MonoBehaviour {
 		} else if (tag == "Chaser") {
 			axis = "Vertical_Chaser";
 		}
-		if (grounded && Input.GetButtonDown(axis) && Input.GetAxis(axis) > 0f && !damaged) {
+		if (grounded && Input.GetButtonDown(axis) && Input.GetAxis(axis) > 0f && !damaged && !stunned) {
 			rb.AddForce (Vector2.up * jumpSpeed, ForceMode2D.Impulse);
 			if (Mathf.Abs(Input.GetAxis(axis)) > 0f) {
 				forwardJump = true;
@@ -132,7 +139,12 @@ public class PlayerControllable : MonoBehaviour {
 	public void KnockBack(Vector2 force) {
 		rb.velocity = Vector2.zero;
 		rb.AddForce (force, ForceMode2D.Impulse);
-		sr.flipX = force.x < 0f ? false: true;
+		// sr.flipX = force.x < 0f ? false: true;
+	}
+
+	public void Stun(float t) {
+		this.stunned = true;
+		StartCoroutine (StunForSeconds (t));
 	}
 
 	public float AttackDamage() {
@@ -164,14 +176,12 @@ public class PlayerControllable : MonoBehaviour {
 
 		StartCoroutine (FlashSprite (Global.instance.invulnerableFlashingInterval));
 
-		Physics2D.IgnoreLayerCollision (gameObject.layer, gameObject.layer, true);
 		Physics2D.IgnoreLayerCollision (gameObject.layer, monsterLayer, true);
 
 		yield return new WaitForSeconds (t);
 
 		invulnerable = false;
 
-		Physics2D.IgnoreLayerCollision (gameObject.layer, gameObject.layer, false);
 		Physics2D.IgnoreLayerCollision (gameObject.layer, monsterLayer, false);
 	}
 
@@ -183,5 +193,10 @@ public class PlayerControllable : MonoBehaviour {
 		} else {
 			sr.enabled = true;
 		}
+	}
+
+	IEnumerator StunForSeconds(float t) {
+		yield return new WaitForSeconds (t);
+		this.stunned = false;
 	}
 }

@@ -11,7 +11,7 @@ public class Global : MonoBehaviour {
 	public float invulerableTime = 2f, invulnerableFlashingInterval = 0.2f;
 	public float updateRate = 0.5f;
 
-	bool gameOver = false;
+	public bool gameOver = false;
 
 	void Awake() {
 		if (instance == null) {
@@ -23,6 +23,7 @@ public class Global : MonoBehaviour {
 	}
 		
 	public void GameOver(GameObject loser, GameObject canvas) {
+		this.gameOver = true;
 		GameObject veil = (GameObject)(Instantiate (gameOverVeil, canvas.transform));
 		veil.GetComponent<GameOverVeil> ().Fade (gameOverFadeTime);
 	}

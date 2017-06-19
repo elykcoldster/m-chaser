@@ -12,7 +12,7 @@ public class BeamController : MonoBehaviour {
 	float ttl; // time to live
 
 	// Use this for initialization
-	void Start () {
+	protected void Start () {
 		ttl = distance / speed;
 		rb = GetComponent<Rigidbody2D> ();
 		rb.velocity = transform.right * speed;
@@ -24,7 +24,7 @@ public class BeamController : MonoBehaviour {
 		
 	}
 
-	void OnTriggerEnter2D(Collider2D c) {
+	protected void OnTriggerEnter2D(Collider2D c) {
 		if (c.transform != parent) {
 			if (c.tag == "Monster") {
 				Monster m = c.GetComponent<Monster> ();
@@ -32,6 +32,19 @@ public class BeamController : MonoBehaviour {
 				if (m.health <= 0f) {
 					m.Death ();
 				}
+			}
+
+			if (c.gameObject.layer == LayerMask.NameToLayer ("Player")) {
+				PlayerControllable pc = c.GetComponent<PlayerControllable> ();
+
+				if (pc.invulnerable) {
+					return;
+				}
+
+				float damage = GetPC().AttackDamage ();
+				pc.Damage (damage);
+				pc.KnockBack (((Vector3.right * (c.transform.position.x - transform.position.x)).normalized + Vector3.up).normalized
+					* GetPC().knockback);
 			}
 			Destroy (gameObject);
 		}

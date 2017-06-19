@@ -33,6 +33,7 @@ public class GameOverVeil : MonoBehaviour {
 	IEnumerator GameOverTextAppear(float t) {
 		yield return new WaitForSeconds (t);
 		GameOverText got = ((GameObject)Instantiate (gameOverText, transform)).GetComponent<GameOverText> ();
+		got.GetComponent<RectTransform> ().localPosition = new Vector3 (0.5f, 0.5f, 0f);
 		got.Fade (t);
 	}
 }

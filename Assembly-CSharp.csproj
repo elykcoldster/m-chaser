@@ -158,6 +158,7 @@
      <Compile Include="Assets\Scripts\Movable.cs" />
      <Compile Include="Assets\Scripts\PlayerControllable.cs" />
      <Compile Include="Assets\Scripts\PreyController.cs" />
+     <Compile Include="Assets\Scripts\StunBeamController.cs" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh.cginc" />
      <None Include="Assets\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh.shader" />
      <None Include="Assets\AstarPathfindingProject\Plugins\DotNetZip\DotNetZipLicense.txt" />

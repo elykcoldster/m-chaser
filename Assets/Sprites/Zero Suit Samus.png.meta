@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 62316d49d3c5bad4b8c2671862b8bbaa
-timeCreated: 1497069945
+timeCreated: 1497838140
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -72,6 +72,7 @@ TextureImporter:
     21300130: samus_death_12
     21300132: samus_death_13
     21300134: samus_death_14
+    21300136: samus_damaged
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -1024,6 +1025,19 @@ TextureImporter:
         y: 119
         width: 15
         height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: samus_damaged
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 207
+        width: 25
+        height: 31
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

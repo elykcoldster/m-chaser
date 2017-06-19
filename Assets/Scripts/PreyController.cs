@@ -51,11 +51,11 @@ public class PreyController : PlayerControllable {
 
 			Quaternion rot = sr.flipX ? Quaternion.Euler (0f, 0f, 180f) : Quaternion.identity;
 			Vector3 spawnLoc = GetSpawnLocation ();
-			BeamController beam = ((GameObject)Instantiate (Global.instance.beam, spawnLoc, rot)).GetComponent<BeamController> ();
+			BeamController beam = ((GameObject)Instantiate (beamObject, spawnLoc, rot)).GetComponent<BeamController> ();
 
 			beam.parent = transform;
-			beam.speed = 20f;
-			beam.distance = 10f;
+			beam.speed = fireSpeed;
+			beam.distance = fireDistance;
 			fireTimer = 0f;
 		}
 		if (fireTimer < 1 / fireRate) {
